@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment # 3</title>
+</head>
+
+<body>
+
+    <h3>Assignment #3 Submitted by Muzaffar Mirzaev August 9, 2021 Monday</h3>
+
+    <h4>Assignment on HTML Forms</h4>
+
+    <h5>HTML Form Input Validtion Using JavaScript</h5>
+
+    <form action="formedit.php" method="POST">
+    <fieldset>
+        <legend>Registration Form</legend> 
+        
+        <label>Name*</label>
+        <input type="text" name="name" required><br><br>
+        <label>Address</label>
+        <input type="text" name="name"><br><br>
+        <label>Zip Code*</label>
+        <input type="text" name="name" required><br><br>
+
+        <label for="country">Country*</label>
+        <select id="country" name="country" required>
+            <option text="" selected>Please select</option>
+            <option value="uzbekistan">Uzbekistan</option>
+            <option value="korea">Korea</option>
+            <option value="japan">Japan</option>
+            <option value="russia">Russia</option>
+        </select><br><br>
+
+        <label>Gender*</label>
+        <input type="radio" value="male"> <label for="n1">Male</label>
+        <input type="radio" value="female"> <label for="n2">Female</label><br><br>
+
+        <label>Preferences*</label>
+        <input type="checkbox" id="red" name="vehicle1" value="red">
+        <label for="red"> Red</label>    
+        <input type="checkbox" id="green" name="green" value="green">
+        <label for="green"> Green</label>
+        <input type="checkbox" id="blue" name="blue" value="blue">
+        <label for="vehicle3">Blue</label><br><br>
+
+
+        <label>Phone*</label>
+        <input type="text" name="phone" required><br><br>
+        <label>Email*</label>
+        <input type="text" name="email" required><br><br>
+        <label>Password (6-8 characters)*</label>
+        <input type="password" name="password" minlength="6" maxlength="6" required><br><br>
+        <label>Verify Password*</label>
+        <input type="password" name="password" minlength="6" maxlength="6" required><br><br>
+
+        <button type="submit">SEND</button> 
+          
+        <button type="reset">CLEAR</button> 
+
+
+    </fieldset>
+    </form>
+
+</body>
+
+</html>
