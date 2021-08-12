@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FORMS</title>
+</head>
+
+<body>
+
+    <h5>HTML FORMS</h5>
+
+    <br>
+    <form method="POST" action="reg.php">
+    
+    <fieldset>
+        <legend>Registratsiya Formasi</legend>
+
+        <label>Familyangizni kiriting</label>
+        <input type="text" name="firstname" id="firsname" placeholder="Bosh harf bilan kiriting">
+        <br><br>
+        <label>Ismingizni kiriting</label>
+        <input type="text" name="lastname" id="lastname" value="Bosh harf bilan kiriting">
+        <br><br>
+        <label>Tugulgan kuningiz</label>
+        <input type="date" name="birthdate" id="birthdate">
+        <br><br>
+        <label>Yoshingiz</label>
+        <input type="number" name="age" id="age">
+        <br><br>
+        <label>Login</label>
+        <input type="number" name="username" id="username">
+        <br><br>
+        <label>Parol</label>
+        <input type="password" name="pass" id="pass">
+        <br><br>
+        <label>Email</label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label>Jinsi</label>
+        <select name="sex" id="sex">
+            <option value="1">Erkak</option>
+            <option value="2">Ayol</option>
+        </select>
+        <br><br>
+        <label>Qaysi tillarni urganmoqchisiz</label>
+        <select name="lang" id="lang" multiple>
+            <option value="1">PHP</option>
+            <option value="2">Python</option>
+            <option value="3">HTML</option>
+            <option value="4">C#</option>
+            <br><br>
+        <br><br>
+        <label>Qaysi tilni bilgansiz</label>
+        <select name="" id="">
+            <option value="1">Java</option>
+            <option value="2">Go</option>
+            <option value="2" disabled>Hech qaysi</option>    
+        </select>
+        <br><br>
+        <p>Ishchilar soni:</p>
+        <input type="radio" value="30 kishidan kam">
+        <label for="n1">0 - 30</label><br>
+        <input type="radio" value="60 kishigacha">
+        <label for="n2">31 - 60</label><br>
+        <input type="radio" value="100 dan ortiq">
+        <label for="n3">61 - 100</label>
+        <br><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked>
+        <label for="vehicle1"> individual</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> gruppovoy</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> boshqa</label><br><br>
+
+        <label>Uzingiz haqingizda</label>
+        <textarea rows="10" cols="45" name="about" id="about"></textarea>
+
+
+        <br><br>    
+        <button type="submit">Saqlash</button> 
+        <br><br>    
+        <button type="reset">Tozalash</button> 
+
+
+
+
+    </fieldset>
+    </form>
+    
+
+</body>
+
+
+
+
+</html>
